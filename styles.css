@@ -1,0 +1,137 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #b9e0e7;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #b9e0e7;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33%;
+  padding: 5px;
+}
+
+.buttonCreate {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  opacity: 0.6;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.buttonCreate:hover {
+  opacity: 1;
+}
+
+.buttonEdit {
+  background-color: #23bdbd; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  opacity: 0.6;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.buttonEdit:hover {
+  opacity: 1;
+}
+
+.buttonDelete {
+  background-color: #df0404; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  opacity: 0.6;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.buttonDelete:hover {
+  opacity: 1;
+}
+
+input[type="text"],
+select,
+input[type="number"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.test {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
