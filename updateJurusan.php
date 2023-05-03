@@ -19,9 +19,8 @@ $data = mysqli_fetch_assoc($exec);
     <div class="test">
         <form action="editJurusan.php" method="POST">
 
-            <label for="id_jurusan">ID Jurusan</label>
-            <input type="number" name="id_jurusan" value="<?= $data['id_jurusan'] ?>" readonly>
-            <br>
+            <input type="hidden" name="id_jurusan" value="<?= $data['id_jurusan'] ?>" readonly>
+
             <label for="nama_jurusan">Nama Jurusan</label>
             <input type="text" name="jurusan" value="<?= $data['nama_jurusan'] ?>">
 

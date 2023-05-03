@@ -24,8 +24,8 @@ $datajurusan = mysqli_fetch_assoc($execjurusan);
 
     <div class="test">
         <form action="update.php" method="POST">
-            <label for="nim">Nomer Induk Mahasiswa</label>
-            <input type="number" name="nim" value="<?= $data['nim'] ?>" readonly>
+
+            <input type="hidden" name="nim" value="<?= $data['nim'] ?>" readonly>
 
             <label for="nama">Nama Mahasiswa</label>
             <input type="text" name="nama" value="<?= $data['nama_mhs'] ?>">
